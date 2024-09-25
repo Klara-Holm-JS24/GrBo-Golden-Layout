@@ -1,0 +1,29 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: grid;
+    grid-template: repeat(4, auto) / 1fr 15rem;
+    gap: 10px;
+}
+
+body > * {
+    background-color: #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {height: 20rem;}
+nav {height: 5rem;}
+main {height: 40rem;}
+aside {min-height: 20rem;}
+footer {height: 15rem;}
+
+script {
+    display: none;
+    /*??????????????????????+*/
+}

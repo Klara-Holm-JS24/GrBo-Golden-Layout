@@ -1,0 +1,15 @@
+header {grid-area: auto/auto/span 1/span 2;}
+nav {grid-area: auto/auto/span 1/span 2;}
+main {grid-area: auto/auto/span 1/span 1;}
+aside {grid-area: auto/auto/span 1/span 1;}
+footer {grid-area: auto/auto/span 1/span 2;}
+
+
+/*Alternativt sätt att skriva samma: */
+/* 
+body > * {
+    grid-column-start: auto;
+    grid-row-start: auto;
+}
+header, nav, footer{grid-column-end: span 2;} 
+*/

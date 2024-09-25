@@ -1,0 +1,15 @@
+/*Börjar med exakt samma som B*/
+
+body > * {
+    grid-column-start: auto;
+    grid-row-start: auto;
+}
+header, nav, footer{grid-column-end: span 2;} 
+
+@media only screen and (max-width: 600px) {
+    body {
+        grid-template: repeat(5, auto) / 1fr;
+        header, nav, footer{grid-column-end: span 1git ;}
+    }
+    
+}
